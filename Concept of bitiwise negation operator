@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    //if a is a non negative integer then ~a = -(a+1)
+
+    int a = 2147483647; 
+    cout<< ~a << endl;
+
+    a = 5;
+    cout<< ~a << endl;
+
+    a = 1;
+    cout<< ~a << endl;
+
+
+    a = 0;
+    cout<< ~a << endl;
+
+//if a is a negative integer ~a = (-a) - 1
+
+    a = -2147483648;
+    cout<< ~a << endl;
+    
+    a = -5;
+    cout<< ~a << endl;
+
+    a = -1;
+    cout<< ~a << endl;
+
+//if is a unsigned integer ~b = 4294967295 - b 
+
+unsigned int b = 0;
+cout<< ~b << endl;
+
+b = 45;
+cout<< ~b << endl;
+
+b = 4294967295;
+cout<< ~a << endl;
+
+}
+
