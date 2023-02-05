@@ -18,7 +18,7 @@ int main()
     a = 0;
     cout<< ~a << endl;
 
-//if a is a negative integer ~a = (-a) - 1
+//if a is a negative integer then ~a = (-a) - 1
 
     a = -2147483648;
     cout<< ~a << endl;
@@ -29,7 +29,7 @@ int main()
     a = -1;
     cout<< ~a << endl;
 
-//if is a unsigned integer ~b = 4294967295 - b 
+//if b is a unsigned integer then ~b = 4294967295 - b 
 
 unsigned int b = 0;
 cout<< ~b << endl;
